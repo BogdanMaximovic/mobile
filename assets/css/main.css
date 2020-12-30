@@ -1,0 +1,168 @@
+:root {
+    --text-color: #363636;
+    --color-white: #fff;
+    --color-grey: #ccc;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?j0bowy');
+    src: url('fonts/icomoon.eot?j0bowy#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?j0bowy') format('truetype'),
+        url('fonts/icomoon.woff?j0bowy') format('woff'),
+        url('fonts/icomoon.svg?j0bowy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 20px;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Ribbon-1:before {
+    content: "\e900";
+}
+
+.icon-Ribbon-2:before {
+    content: "\e901";
+}
+
+.icon-Ribbon-3:before {
+    content: "\e902";
+}
+
+.icon-Ribbon-4:before {
+    content: "\e903";
+}
+
+.icon-Trace-Another-Product:before {
+    content: "\e904";
+}
+
+.icon-Products:before {
+    content: "\e905";
+}
+
+.icon-About-Organo:before {
+    content: "\e906";
+}
+
+.icon-Trace-Another-Product-V2:before {
+    content: "\e907";
+}
+
+.icon-Products-V2:before {
+    content: "\e908";
+}
+
+.icon-About-Organo-V2:before {
+    content: "\e909";
+}
+
+html,
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url(../img/logo/coffee-stain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* menu  */
+.navigation--list {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 12px 30px;
+    border-top: 1px solid var(--color-grey);
+    background-color: var(--text-color);
+}
+
+.navigation--list .navigation__item {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.navigation--list .navigation__item i {
+    font-size: 40px;
+    color: #DFB657;
+}
+
+.navigation--list .navigation__item span {
+    display: block;
+}
+
+.navigation--list .navigation__content {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* header */
+
+.logo {
+    text-align: center;
+    padding: 15px;
+    background-color: #363636;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.product {
+    width: 120px;
+    height: 130px;
+    margin-right: 15px;
+    float: left;
+}
+
+/* info  */
+p span {
+    font-weight: 400;
+}
+
+.info {
+    border-bottom: 1px solid var(--color-grey);
+    margin: 0 15px;
+}
+
+/* links  */
+.certified {
+    margin: 15px 15px 0;
+}
+
+.certified-link {
+    margin-bottom: 5px;
+}
+
+.certified-link a {
+    color: var(--text-color);
+}
